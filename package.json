@@ -7,6 +7,7 @@
   "scripts": {
     "blocking": "node server-blocking.js",
     "threads": "node server-threads.js",
+    "threads-app": "node server-threads-app.js",
     "test": "node test.js"
   },
   "author": "Adam Bukowski",
