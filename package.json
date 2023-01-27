@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Test handling part of the app in the worker thread",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "blocking": "node server-blocking.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adam Bukowski",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
